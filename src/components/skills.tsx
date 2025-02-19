@@ -12,16 +12,22 @@ export default function Skills() {
           {[
             "NextJs",
             "ReactJs",
-            "TS/JS",
-            "Hono",
+            "Redis",
+            "SQL",
             "PostgreSQL",
             "MongoDB",
             "Prisma",
+            "Firebase",
+            "Java-DSA",
+            "TS/JS",
             "TailwindCSS",
             "Docker",
             "NodeJs/ExpressJs",
             "WebSockets",
             "Git/Github",
+            "Algorithms",
+            "Data-Structures",
+
           ].map((item, index) => (
             <Badge
               key={index}

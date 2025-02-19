@@ -63,7 +63,7 @@ export function ProjectCarousel() {
                   onClick={() => window.open(item.liveLink, "_blank")}
                   className="h-7 font-bold text-xs"
                 >
-                  Github <GithubIcon />
+                  Github <GithubIcon/>
                 </Button>
               </div>
 

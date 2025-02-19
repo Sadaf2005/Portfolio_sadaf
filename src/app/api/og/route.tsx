@@ -35,10 +35,10 @@ export async function GET() {
           tw="flex items-center justify-center border-black w-[20%] mb-6 p-2"
           src="https://res.cloudinary.com/dazeowi1e/image/upload/f_auto,q_auto/v1/portfolio/d8tdxef7b8kdkiaeqtr7"
         />
-        <div tw="text-[3rem]">Aman Kumar Bairagi</div>
-        <div tw="">Passionate Frontend Developer</div>
+        <div tw="text-[3rem]">Sadaf</div>
+        <div tw="">Full Stack Developer</div>
         <div tw="text-[1rem] absolute bottom-4 opacity-50">
-          Reachout : amanbairagi1089@gmail.com
+          Reachout : alisadaf434@gmail.com
         </div>
         <div
           style={{

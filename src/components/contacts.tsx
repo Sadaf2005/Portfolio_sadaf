@@ -1,6 +1,6 @@
 import React from "react";
 import SocailMedia from "./socail-media";
-import { logo } from "@/app/constants/image";
+
 
 export default function Contacts() {
   return (
@@ -16,15 +16,8 @@ export default function Contacts() {
           &copy; {new Date().getFullYear()} All Rights Reserved
         </p>
         <p className="text-sm text-foreground/60">
-          Designed and Developed by Aman Kumar Bairagi
+          Designed and Developed by Sadaf
         </p>
-        <img
-          className="w-4 absolute bottom-4 object-cover"
-          width={400}
-          height={400}
-          src={logo.src}
-          alt="merged-and-share"
-        />
       </div>
     </>
   );

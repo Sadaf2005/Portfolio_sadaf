@@ -27,17 +27,19 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Aman Kumar Bairagi",
+  title: "Sadaf",
   description:
-    "A developer from India who enjoys building website frontends and is also a full-stack developer. Passionate about creating various tech projects and learning along the way.",
-  openGraph: {
+    "A Full Stack Developer, Problem Solver and Computer Science student at NMIT, Bengaluru. Passionate about building scalable applications and creating impactful tech solutions.",
+
+    icons: "/favicon.ico",
+  openGraph: {  
     type: "website",
-    title: "Aman Kumar Bairagi",
+    title: "Sadaf",
     description:
-      "A developer from India who enjoys building website frontends and is also a full-stack developer. Passionate about creating various tech projects and learning along the way.",
+      "A Full Stack Developer, Problem Solver and Computer Science student at NMIT, Bengaluru. Passionate about building scalable applications and creating impactful tech solutions.",
     images: [
       {
-        url: `${process.env.NEXT_PUBLIC_URL}/api/og`,
+        url: "https://st.depositphotos.com/46079520/55081/v/450/depositphotos_550815354-stock-illustration-eaw-letter-logo-design-white.jpg",
         alt: "og-image-for-home-page",
       },
     ],
@@ -72,7 +74,7 @@ export default function RootLayout({
         <Analytics />
         <Script
           async
-          src="https://custom-web-widget.vercel.app/widget.umd.js"
+          src="favicon.js"
         ></Script>
       </body>
     </html>

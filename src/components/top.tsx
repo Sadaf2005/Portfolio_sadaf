@@ -3,6 +3,7 @@ import React from "react";
 import { SelectTheme } from "./theme-toggle";
 import CurrentWork from "./current-work";
 import { Button } from "./ui/button";
+//  import { img2 } from "@/app/constants/image"
 
 export default function Top() {
   const scrollToSection = (id: string) => {
@@ -11,26 +12,37 @@ export default function Top() {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
+  
   return (
     <>
-      <header className="grid grid-cols-4 p-5 w-full">
-        <div className="flex flex-col gap-2 col-span-4 ">
-          <h3 className="text-foreground/60">Hi there ! This is</h3>
-          <h1 className="text-4xl flex items-center gap-4 font-extrabold">
-            Aman Kumar Bairagi <SelectTheme />
-          </h1>
+      <header className="grid grid-cols-4 p-5 w-full items-center">
+        {/* Left Side: Text Content */}
+        <div className="flex flex-col gap-2 col-span-3">
+          <h4 className="text-foreground/60">Hi there! This is</h4>
+          <div>
+          <div className="flex items-center gap-4">
+            <h1 className="text-5xl font-extrabold">Sadaf</h1>
+            <SelectTheme />
+          </div>
+          {/* Right Side: Profile Image */}
+        {/* <div className="col-span-1 flex justify-center">
+          <img
+            src={img2.src}
+            alt="Sadaf"
+            className="w-32 h-32 rounded-full object-cover border-4 border-primary shadow-lg mt-2"
+          />
+        </div> */}
+          
+          </div>
+
           <p className="text-foreground/60">
-            A developer from India who enjoys building website frontends and is
-            also a full-stack developer. Passionate about creating various tech
-            projects and learning along the way.
+          Hi! I’m Sadaf, a Full Stack Developer and Computer Science student at NMIT, Bengaluru. I specialize in Next.js, React.js, Docker, Redis, MongoDB, and PostgreSQL while continuously exploring new technologies. Passionate about problem-solving, DSA, and building scalable applications, I thrive in collaborative environments. I love coding competitions and hackathons, always eager to learn, grow, and create impactful tech solutions. Let’s connect and build something amazing! 🚀
           </p>
 
           <CurrentWork />
 
           <aside className="flex items-center gap-2 mt-4">
             <Button
-              // Icon={SquareChartGantt}
-              // iconPlacement="right"
               className="h-8 shadow-xl shadow-primary/10 font-extrabold dark:shadow-primary/40"
               onClick={() => scrollToSection("projects")}
             >
@@ -43,9 +55,20 @@ export default function Top() {
             >
               Contact me
             </Button>
+            {/* <a href={"/Resume-updated.pdf"} target="_blank">
+          <FileUser />
+        </a> */}
+        <Button className="h-8 shadow-xl shadow-primary/10 font-extrabold dark:shadow-primary/40">
+        <a href={"/Resume-updated.pdf"} target="_blank">
+        Resume
+        </a> 
+        </Button>
+
           </aside>
-          {/* <SocailMedia /> */}
+         
         </div>
+
+        
       </header>
     </>
   );

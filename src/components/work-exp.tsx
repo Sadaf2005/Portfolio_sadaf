@@ -13,11 +13,11 @@ export default function WorkExperience() {
               <BriefcaseBusiness />
             </div>
             <div className="flex flex-col">
-              <h2 className="text-xl font-bold">Purpose Driven Studio</h2>
+              <h2 className="text-xl font-bold">Bluoryn</h2>
               <p className="text-sm text-foreground/60">
-                Frontend Developer Intern
+                Backend Developer Intern
               </p>
-              <p className="text-sm text-foreground/60">June 2024 - Nov 2024</p>
+              <p className="text-sm text-foreground/60">Dec 2024 - March 2025</p>
             </div>
           </div>
         </article>
