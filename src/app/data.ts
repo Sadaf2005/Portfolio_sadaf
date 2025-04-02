@@ -3,6 +3,7 @@ import {
   codefolio,
   realestate,
   redis_server,
+  server
 } from "@/app/constants/image";
 
 
@@ -18,6 +19,18 @@ export const projectData = [
       "AI-Interview-Mocker is your personal interview coach, powered by advanced AI.",
     liveLink: "https://ai-interview-mocker-rosy.vercel.app",
     githubLink: "https://github.com/Sadaf2005/AI-Interview-Mocker",
+  },
+  {
+    name: "Serverless-EC2_Instance",
+    users: "",
+    visitors: "", 
+    skills: ["AWS", "AWS-Lambda", "AWS-EC2", "AWS-Cloudwatch","Serverless","Nodejs"],
+    image: server,
+    bgColor: "yellow-500",
+    description:
+      "Automation solution for EC2 instance scheduling",
+    liveLink: "",
+    githubLink: "https://github.com/Sadaf2005/serverless-ec2-scheduler",
   },
   {
     name: "ReCache",

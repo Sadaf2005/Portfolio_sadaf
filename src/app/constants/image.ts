@@ -15,6 +15,6 @@ import shecodes from "@/app/assets/sheCodes.jpg";
 import aws from "@/app/assets/aws.png";
 import nptel from "@/app/assets/nptel.png";
 import dbms from "@/app/assets/dbms.png";
+import server from "@/app/assets/server.png";    
 
-
-export { redis_server,realestate,codefolio,aiMocker,leetcode,achievement,img1,img2,cryp,cry2,gdsc,shecodes,aws,nptel,dbms}; 
+export { redis_server,realestate,codefolio,aiMocker,leetcode,achievement,img1,img2,cryp,cry2,gdsc,shecodes,aws,nptel,dbms,server}; 
